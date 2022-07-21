@@ -184,7 +184,7 @@ footer{
     text-align: center;
     margin-top: 20px;
 }
-/* media quary  */
+/* media quary for mobail */
 @media only screen and (max-width: 600px) {
     .banner {
         display: block;
@@ -219,6 +219,7 @@ footer{
 
 
   }
+  /* tablet  */
 
   @media (min-width: 600px) and (max-width: 1024px) {
     .side-bar{
@@ -254,6 +255,8 @@ footer{
     }
 
   }
+
+  /* animation  */
   @media (prefers-reduced-motion: no-preference) {
     .app-logo {
         animation: App-logo-spin infinite 10s linear;
